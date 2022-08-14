@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+body, a {
+    color: white;
+}
+
+header {
+    background-color: red;
+    text-align: center;
+    font-size: 24px;
+}
+
+nav {
+    background-color: orange;
+    text-align: center;
+    padding: 8px 0;
+}
+
+nav > a {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+main {
+    background-color: green;
+    padding: 16px 16px 8px;
+}
+
+article {
+    background-color: blue;
+    margin-bottom: 8px;
+    padding: 16px;
+}
+
+h2 {
+    margin-left: 24px;
+    margin-bottom: 8px;
+
+}
+
+footer {
+    background-color: purple;
+    text-align: center;
+    font-size: 40px;
+}
