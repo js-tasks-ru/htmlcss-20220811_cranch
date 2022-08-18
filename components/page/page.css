@@ -1,0 +1,6 @@
+.page {
+    background-color: #F9FAFC;
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
+    min-height: 1036px;
+}

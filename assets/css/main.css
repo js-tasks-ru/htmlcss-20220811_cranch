@@ -1,4 +1,6 @@
 @import '../fonts/fonts.css';
+@import '../../components/page/header.css';
+@import '../../components/page/footer.css';
 
 :root {
     --white: #ffffff;
@@ -19,7 +21,7 @@
     --secondary: var(--purple);
 }
 
-* {
+body {
     box-sizing: border-box;
     
     font-family: 'Inter', sans-serif;
