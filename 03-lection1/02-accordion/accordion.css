@@ -1,9 +1,4 @@
 /* Стилизация аккордеона */
-.accordion {
-    width: 730px;
-    border: 1px solid #ACB5BD;
-    border-radius: 8px;
-}
 
 .accordion__summary {
     display: block;
@@ -11,10 +6,14 @@
     padding: 24px 32px;
 
 }
-
-.accordion__item {
+.accordion__content {
     color: var(--grey-4);
     padding: 0 32px 32px;
+}
+
+.accordion__item {
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
     margin-bottom: 8px;
 }
 
