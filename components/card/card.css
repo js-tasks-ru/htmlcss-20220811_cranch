@@ -1,7 +1,6 @@
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     box-sizing: border-box;
     width: 350px;
     padding: 30px 24px;
@@ -13,7 +12,8 @@
 .card__preview {
     display: flex;
     height: 266px;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .card__image {
