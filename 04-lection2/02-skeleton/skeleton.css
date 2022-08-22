@@ -1,0 +1,52 @@
+.skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 40px 32px 24px;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+}
+
+.skeleton__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.skeleton__header-title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.skeleton__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skeleton__avatar {
+    flex-shrink: 0;
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    background-color: var(--grey-2);
+}
+
+.skeleton__line {
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton__line_sm {
+    width: 30%;
+}
+.skeleton__line_md {
+    width: 60%;
+}
+.skeleton__line_lg {
+    width: 100%;
+}
