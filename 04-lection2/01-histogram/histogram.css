@@ -6,6 +6,11 @@
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     gap: 40px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .histogram__info {
