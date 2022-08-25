@@ -1,0 +1,14 @@
+.page {
+    height: 100%;
+}
+
+.page_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.page_grid {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    row-gap: 38px;
+}
