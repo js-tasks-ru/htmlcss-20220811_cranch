@@ -1,0 +1,38 @@
+.sidebar {
+    width: 229px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px
+}
+
+.sidebar__section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sidebar__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.sidebar__title {
+    margin: 0;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.sidebar__link {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.sidebar__link:hover {
+    color: #D84910;
+}
