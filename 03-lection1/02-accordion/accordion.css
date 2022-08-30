@@ -28,7 +28,7 @@
     padding-bottom: 0px;
 }
 
-.accordion__item[open] .icon {
+.accordion__item[open] .accordion__icon {
     transform: rotate(180deg);
 }
 
