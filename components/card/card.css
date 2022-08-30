@@ -31,3 +31,28 @@
     text-align: center;
     color: var(--black);
 }
+
+@media screen and (max-width: 1023px) {
+    .card {
+        width: 163px;
+        padding: 0;
+        border-radius: 8px;
+    }
+
+    .card__preview {
+        height: 164px;
+        border-bottom: 1px solid var(--grey-2);
+    }
+
+    .card__image {
+        width: 90%;
+        object-fit: contain;
+    }
+    .card__title {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 0;
+    }
+}

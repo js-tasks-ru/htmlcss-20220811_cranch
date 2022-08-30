@@ -1,17 +1,46 @@
 .header {
-    padding: 96px 0 77px;
+    display: flex;
     background-color: var(--white);
 }
 
 .header_compact {
-    padding: 24px 0;
     background-color: var(--grey-bg);
 }
 
 .header__title {
     margin: 0;
+    padding: 40px 0;
     font-size: 50px;
     font-weight: 500;
     line-height: 64px;
     color: var(--black);
+}
+
+.header__logo {
+    height: 32px;
+    padding: 24px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        padding: 0 16px;
+    }
+
+    .header__logo {
+        display: flex;
+        padding: 16px 0;
+        justify-content: center;
+    }
+
+    .header_compact {
+        margin: 0 auto;
+    }
+
+    .header__title {
+        padding: 32px 0;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
+    }
 }
