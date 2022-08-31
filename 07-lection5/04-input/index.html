@@ -6,6 +6,36 @@
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
+        <label class="input">
+            <div class="input__label">Label</div>
+            <div class="input__wrapper">
+                <input class="input__form" type="text" placeholder="Placeholder">
+            </div>
+        </label>
+        <label class="input">
+            <div class="input__label">Focus</div>
+            <div class="input__wrapper">
+                <input class="input__form" type="text" placeholder="Placeholder" value="Filled Input" autofocus>
+            </div>
+        </label>
+        <label class="input input_success">
+            <div class="input__label">Success</div>
+            <div class="input__wrapper">
+                <input class="input__form" type="text" placeholder="Placeholder" value="Success">
+                <svg class="icon input__icon">
+                    <use href="../../assets/icons/icons.svg#Success"></use>
+                </svg>
+            </div>
+        </label>
+        <label class="input input_invalid">
+            <div class="input__label">Error</div>
+            <div class="input__wrapper">
+                <input class="input__form" type="text" placeholder="Placeholder" value="Error">
+                <svg class="icon input__icon">
+                    <use href="../../assets/icons/icons.svg#Error"></use>
+                </svg>
+            </div>
+        </label>
 
     </body>
 </html>

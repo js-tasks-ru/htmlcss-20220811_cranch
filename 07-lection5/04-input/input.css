@@ -1,0 +1,70 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    gap: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.input__label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+}
+
+.input__wrapper {
+    position: relative;
+}
+
+.input__form {
+    width: 100%;
+    box-sizing: border-box;
+    background: var(--white);
+    border: 1px solid var(--grey-2);
+    border-radius: 8px;
+    padding: 17px 24px 13px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--grey-4);
+    outline: none;
+}
+
+.input__icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.input_success > .input__wrapper .input__icon {
+    color: var(--success);
+}
+
+.input_invalid > .input__wrapper .input__icon {
+    color: var(--error);
+}
+
+.input__form::placeholder {
+    color: var(--grey-2);
+}
+
+.input__form:focus {
+    border-color: var(--primary);
+}
+
+.input_success > .input__wrapper .input__form:focus {
+    border-color: var(--success);
+}
+
+.input_invalid > .input__wrapper .input__form {
+    border-color: var(--error);
+}
+
+.input_invalid > .input__wrapper .input__form:focus {
+    border-color: var(--primary);
+}
