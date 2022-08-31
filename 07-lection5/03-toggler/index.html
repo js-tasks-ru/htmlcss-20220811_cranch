@@ -6,6 +6,28 @@
         <link rel="stylesheet" href="./toggler.css">
     </head>
     <body>
-
+        <label class="toggle">
+            <input class="toggle__input" type="checkbox">
+            <div class="toggle__state">
+                <div class="toggle__control"></div>
+                <div class="toggle__label">Off</div>
+            </div>
+        </label>
+        <label class="toggle">
+            <input class="toggle__input" type="checkbox" checked>
+            <div class="toggle__state">
+                <div class="toggle__control">
+                    <div class="toggle__circle"></div>
+                </div>
+                <div class="toggle__label">On</div>
+            </div>
+        </label>
+        <label class="toggle">
+            <input class="toggle__input" type="checkbox" disabled>
+            <div class="toggle__state">
+                <div class="toggle__control"></div>
+                <div class="toggle__label">Disabled</div>
+            </div>
+        </label>
     </body>
 </html>
