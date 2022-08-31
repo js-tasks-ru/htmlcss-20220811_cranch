@@ -35,17 +35,20 @@
 }
 
 .input__icon {
+    display: none;
     position: absolute;
     top: 50%;
     right: 15px;
     transform: translateY(-50%);
 }
 
-.input_success > .input__wrapper .input__icon {
+.input_success > .input__wrapper .input__icon_success {
+    display: block;
     color: var(--success);
 }
 
-.input_invalid > .input__wrapper .input__icon {
+.input_invalid > .input__wrapper .input__icon_error {
+    display: block;
     color: var(--error);
 }
 

@@ -6,36 +6,54 @@
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
-        <label class="input">
-            <div class="input__label">Label</div>
+        <div class="input">
+            <label class="input__label" for="input-default">Label</label>
             <div class="input__wrapper">
-                <input class="input__form" type="text" placeholder="Placeholder">
-            </div>
-        </label>
-        <label class="input">
-            <div class="input__label">Focus</div>
-            <div class="input__wrapper">
-                <input class="input__form" type="text" placeholder="Placeholder" value="Filled Input" autofocus>
-            </div>
-        </label>
-        <label class="input input_success">
-            <div class="input__label">Success</div>
-            <div class="input__wrapper">
-                <input class="input__form" type="text" placeholder="Placeholder" value="Success">
-                <svg class="icon input__icon">
+                <input class="input__form" type="text" placeholder="Placeholder" id="input-default">
+                <svg class="icon input__icon input__icon_success">
                     <use href="../../assets/icons/icons.svg#Success"></use>
                 </svg>
-            </div>
-        </label>
-        <label class="input input_invalid">
-            <div class="input__label">Error</div>
-            <div class="input__wrapper">
-                <input class="input__form" type="text" placeholder="Placeholder" value="Error">
-                <svg class="icon input__icon">
+                <svg class="icon input__icon input__icon_error">
                     <use href="../../assets/icons/icons.svg#Error"></use>
                 </svg>
             </div>
-        </label>
+        </div>
+        <div class="input">
+            <label class="input__label" for="input-focus">Focus</label>
+            <div class="input__wrapper">
+                <input class="input__form" type="text" placeholder="Placeholder" value="Filled Input" id="input-focus" autofocus>
+                <svg class="icon input__icon input__icon_success">
+                    <use href="../../assets/icons/icons.svg#Success"></use>
+                </svg>
+                <svg class="icon input__icon input__icon_error">
+                    <use href="../../assets/icons/icons.svg#Error"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="input input_success">
+            <label class="input__label" for="input-success">Success</label>
+            <div class="input__wrapper">
+                <input class="input__form" type="text" placeholder="Placeholder" value="Success" id="input-success">
+                <svg class="icon input__icon input__icon_success">
+                    <use href="../../assets/icons/icons.svg#Success"></use>
+                </svg>
+                <svg class="icon input__icon input__icon_error">
+                    <use href="../../assets/icons/icons.svg#Error"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="input input_invalid">
+            <label class="input__label" for="input-error">Error</label>
+            <div class="input__wrapper">
+                <input class="input__form" type="text" placeholder="Placeholder" value="Error" id="input-error">
+                <svg class="icon input__icon input__icon_success">
+                    <use href="../../assets/icons/icons.svg#Success"></use>
+                </svg>
+                <svg class="icon input__icon input__icon_error">
+                    <use href="../../assets/icons/icons.svg#Error"></use>
+                </svg>
+            </div>
+        </div>
 
     </body>
 </html>
