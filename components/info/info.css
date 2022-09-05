@@ -2,7 +2,17 @@
     background-color: var(--white);
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
+}
+
+.info__body {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
     padding: 32px 48px;
+}
+
+.info__tabs {
+    padding: 0 48px;
 }
 
 .info__title {
@@ -13,10 +23,30 @@
     color: var(--grey-4);
 }
 
+.info__source {
+    padding: 50px 48px;
+    border-top: 1px solid var(--grey-2);
+}
+
+.info__source_css {
+    display: none;
+}
+
 @media screen and (max-width: 1023px) {
     .info {
         border-radius: 0;
+    }
+
+    .info__body {
         padding: 32px 16px;
+    }
+    
+    .info__tabs {
+        padding: 0 16px;
+    }
+
+    .info__source {
+        padding: 22px 8px;
     }
     
     .info__title {

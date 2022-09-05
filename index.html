@@ -17,11 +17,22 @@
                         </svg>
                     </div>
                     <h1 class="header__title">Reusable component library</h1>
+                    <div class="tabs">
+                        <input onchange="setPreview('all')" class="tabs__input tabs__input_all" type="radio" name="tab-group" id="#all-tab" checked>
+                        <input onchange="setPreview('complex')" class="tabs__input tabs__input_complex" type="radio" name="tab-group" id="#complex-tab">
+                        <input onchange="setPreview('simple')" class="tabs__input tabs__input_simple" type="radio" name="tab-group" id="#simple-tab">
+                    
+                        <div class="tabs__scroller">
+                            <label class="tabs__item tabs__item_all" for="#all-tab">All components</label>
+                            <label class="tabs__item tabs__item_complex" for="#complex-tab">Complex</label>
+                            <label class="tabs__item tabs__item_simple" for="#simple-tab">Simple</label>
+                        </div>
+                    </div>
                 </div>
             </header>
             <main class="section section_flex">
                 <div class="container">
-                    <div class="section__preview">
+                    <div class="section__preview section__preview_all">
                         <div class="card">
                             <div class="card__preview">
                                 <img class="card__image" src="./assets/images/tooltip.png" alt="Tooltip Image">
@@ -59,6 +70,46 @@
                             <p class="card__title">Avatar</p>
                         </div>
                     </div>
+                    <div class="section__preview section__preview_complex">
+                        <div class="card">
+                            <div class="card__preview">
+                                <img class="card__image" src="./assets/images/elements.png" alt="Form elements Image">
+                            </div>
+                            <p class="card__title">Custom form elements</p>
+                        </div>
+                        <div class="card">
+                            <div class="card__preview">
+                                <img class="card__image" src="./assets/images/calendar.png" alt="Calendar Image">
+                            </div>
+                            <p class="card__title">Calendar</p>
+                        </div>
+                        <div class="card">
+                            <div class="card__preview">
+                                <img class="card__image" src="./assets/images/modal.png" alt="Modal Image">
+                            </div>
+                            <p class="card__title">Modal dialog</p>
+                        </div>
+                        <div class="card">
+                            <div class="card__preview">
+                                <img class="card__image" src="./assets/images/histogram.png" alt="Histogram Image">
+                            </div>
+                            <p class="card__title">Histogram</p>
+                        </div>
+                    </div>
+                    <div class="section__preview section__preview_simple">
+                        <div class="card">
+                            <div class="card__preview">
+                                <img class="card__image" src="./assets/images/tooltip.png" alt="Tooltip Image">
+                            </div>
+                            <p class="card__title">Tooltip</p>
+                        </div>
+                        <div class="card">
+                            <div class="card__preview">
+                                <img class="card__image" src="./assets/images/avatar.png" alt="Avatar Image">
+                            </div>
+                            <p class="card__title">Avatar</p>
+                        </div>
+                    </div>
                 </div>
             </main>
             <footer class="footer">
@@ -73,5 +124,6 @@
                 </div>
             </footer>
         </div>
+        <script src="./components/tabs/tabs.js"></script>
     </body>
 </html>
