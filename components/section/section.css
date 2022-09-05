@@ -17,6 +17,11 @@
     gap: 30px;
 }
 
+.section__preview_complex,
+.section__preview_simple {
+    display: none;
+}
+
 .section__wrapper-grid {
     display: grid;
     grid-template-columns: auto 1fr;

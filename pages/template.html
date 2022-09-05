@@ -58,7 +58,26 @@
 
                         </aside>
                         <div class="info">
-                            <h3 class="info__title">Custom form elements</h3>
+                            <div class="info__body">
+                                <h3 class="info__title">Custom form elements</h3>
+                                <img src="../assets/images/elements.png" alt="Temporary Placeholder">
+                            </div>
+                            <div class="tabs info__tabs">
+                                <input onchange="setSource('html')" class="tabs__input tabs__input_html" type="radio" name="tab-group" id="#html-tab" checked>
+                                <input onchange="setSource('css')" class="tabs__input tabs__input_css" type="radio" name="tab-group" id="#css-tab">
+                            
+                                <div class="tabs__scroller">
+                                    <label class="tabs__item tabs__item_html" for="#html-tab">HTML</label>
+                                    <label class="tabs__item tabs__item_css" for="#css-tab">CSS</label>
+                                </div>
+                            </div>
+                            <div class="info__source info__source_html">
+                                <img src="../assets/images/source.png" alt="Temporary Placeholder">
+                            </div>
+                            <div class="info__source info__source_css">
+                                <img src="../assets/images/source.png" alt="Temporary Placeholder">
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -69,5 +88,6 @@
                 </div>
             </footer>
         </div>
+        <script src="../components/tabs/tabs.js"></script>
     </body>
 </html>
