@@ -22,26 +22,26 @@
 }
 
 .tabs__input_all:checked ~ .tabs__scroller .tabs__item_all {
-    color: black;
+    color: var(--black);
     border-bottom: 5px solid var(--black);
 }
 
 .tabs__input_complex:checked ~ .tabs__scroller .tabs__item_complex {
-    color: black;
+    color: var(--black);
     border-bottom: 5px solid var(--black);
 }
 
 .tabs__input_simple:checked ~ .tabs__scroller .tabs__item_simple {
-    color: black;
+    color: var(--black);
     border-bottom: 5px solid var(--black);
 }
 
 .tabs__input_html:checked ~ .tabs__scroller .tabs__item_html {
-    color: black;
+    color: var(--black);
     border-bottom: 5px solid var(--black);
 }
 
 .tabs__input_css:checked ~ .tabs__scroller .tabs__item_css {
-    color: black;
+    color: var(--black);
     border-bottom: 5px solid var(--black);
 }
